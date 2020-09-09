@@ -1,0 +1,64 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #77ff77;
+    font-style: italic;
+}
+body {
+    background-color: #77ee ;
+    margin-top: 10px;
+    
+}
+.image {
+    border:2px;
+    display:flex;
+    justify-content: center;
+}
+.facts {
+    display:flex;
+    flex-wrap: wrap;
+    outline-width: 3px;
+    outline-color: azure; 
+    outline-style: dotted;
+}
+.artist {
+    border-radius: 20px;
+    outline-width: 5px;
+    outline-color: blanchedalmond;
+    outline-style: groove;
+
+}
+a:link{
+    color: crimson;
+
+}
+
+a:visited{
+    color:crimson;
+}
+    
+.image :hover {
+    transform: scale(1.2)
+}
+.grid {
+display :flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+.skorpion {
+    position: relative;
+    
+}
+.skorpion p{
+    position: absolute;
+    top:50% ;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0
+}
+.skorpion:hover p{
+    opacity:1
+}
+.skorpion:hover img{
+    opacity:0.3
+}
